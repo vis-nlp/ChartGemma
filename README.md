@@ -1,7 +1,7 @@
 # ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild
 
 * Authors: [Ahmed Masry](https://ahmedmasryku.github.io/)*, Megh Thakkar∗ Aayush Bajaj, Aaryaman Kartha, Enamul Hoque, Shafiq Joty (*equal contribution)
-* Paper Link: [ChartGemma]()
+* Paper Link: [ChartGemma](https://arxiv.org/abs/2407.04172)
 
 
   <img width="724" alt="architecture" src="https://github.com/vis-nlp/ChartGemma/assets/47740795/2aa77ec1-bc5a-445b-8905-e7643ac5996b">
@@ -111,5 +111,13 @@ If you have any questions about this work, please contact **[Ahmed Masry](https:
 Please cite our paper if you use our models in your research. 
 
 ```
-
+@misc{masry2024chartgemmavisualinstructiontuningchart,
+      title={ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild}, 
+      author={Ahmed Masry and Megh Thakkar and Aayush Bajaj and Aaryaman Kartha and Enamul Hoque and Shafiq Joty},
+      year={2024},
+      eprint={2407.04172},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2407.04172}, 
+}
 ```
