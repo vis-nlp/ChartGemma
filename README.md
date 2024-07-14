@@ -79,9 +79,7 @@ from PIL import Image
 torch.hub.download_url_to_file('https://raw.githubusercontent.com/vis-nlp/ChartQA/main/ChartQA%20Dataset/val/png/multi_col_1229.png', 'chart_example_1.png')
 
 image_path = "/content/chart_example_1.png"
-input_text = "What is the share of respondants who prefer Whatsapp in the 18-29 age group?"
-
-input_prompt = f"<image>\n Question: {input_text} Answer: "
+input_text = "program of thought: what is the sum of Faceboob Messnger and Whatsapp values in the 18-29 age group?"
 
 bnb_config = BitsAndBytesConfig(
             load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.float16
@@ -91,7 +89,7 @@ model = PaliGemmaForConditionalGeneration.from_pretrained("ahmed-masry/chartgemm
 processor = AutoProcessor.from_pretrained("ahmed-masry/chartgemma")
 
 image = Image.open(image_path).convert('RGB')
-inputs = processor(text=input_prompt, images=image, return_tensors="pt")
+inputs = processor(text=input_text, images=image, return_tensors="pt")
 prompt_length = inputs['input_ids'].shape[1]
 
 
