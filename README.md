@@ -21,6 +21,9 @@ If you wish to quickly try our models, you can access our public web demoes host
 | ------------- | ------------- |
 | ChartGemma  | [ChartGemma](https://huggingface.co/spaces/ahmed-masry/ChartGemma) |
 
+## Dataset
+You can find our dataset on Huggingface (https://huggingface.co/datasets/ahmed-masry/ChartGemma) 
+
 ## Inference
 You can easily use our models for inference with the huggingface library! You just need to do the following:
 
