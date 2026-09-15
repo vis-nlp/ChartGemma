@@ -112,13 +112,20 @@ If you have any questions about this work, please contact **[Ahmed Masry](https:
 Please cite our paper if you use our models in your research. 
 
 ```
-@misc{masry2024chartgemmavisualinstructiontuningchart,
-      title={ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild}, 
-      author={Ahmed Masry and Megh Thakkar and Aayush Bajaj and Aaryaman Kartha and Enamul Hoque and Shafiq Joty},
-      year={2024},
-      eprint={2407.04172},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2407.04172}, 
+@inproceedings{masry-etal-2025-chartgemma,
+    title = "{C}hart{G}emma: Visual Instruction-tuning for Chart Reasoning in the Wild",
+    author = "Masry, Ahmed  and
+      Thakkar, Megh  and
+      Bajaj, Aayush  and
+      Kartha, Aaryaman  and
+      Hoque, Enamul  and
+      Joty, Shafiq",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics: Industry Track",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-industry.54/",
+    pages = "625--643",
 }
 ```
